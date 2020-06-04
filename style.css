@@ -27,3 +27,8 @@ font-size: 160%;
 .navbar-brand{
     color: red;
 }
+
+.photo {
+width: 360px;
+height: 325px;
+}
