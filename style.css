@@ -1,8 +1,36 @@
+
+/*This changes the background of the navigation bar*/
+#top-bar {
+    width: 100%;
+    margin: 0 0 30px;
+    overflow: auto;
+    color: #ffffff;
+    background: #ffffff;
+    border-bottom:  2px solid #cccccc;
+}
+
+/*Makes nav-link bar full length  */
+.nav-link {
+    width: 90%;
+    max-width: 950px;
+    margin: 0 auto;    
+}
+
+.nav-item {
+   float: right;
+   width: 100%;
+   max-width: 80%;
+   padding: 5px;
+   background: #ffffff;
+   border: 1px #dddddd;
+}
+
+/*For the man with head in wall photo*/
 .figure {
 float: left;
 width: 50%;
 height: 75px;
-margin-top: 10px;
+margin-top: 60px;
 margin-right: 10%;
 margin-bottom: 500px;
 }
@@ -12,20 +40,6 @@ color: black;
 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 font-size: 160%;
 
-}
-
-.button {
-    background-color: #4CAF50; 
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-}
-.navbar-brand{
-    color: red;
 }
 
 .photo {
