@@ -28,21 +28,41 @@
 /*For the man with head in wall photo*/
 .figure {
 float: left;
-width: 50%;
+width: 40%;
 height: 75px;
-margin-top: 60px;
-margin-right: 10%;
-margin-bottom: 500px;
+margin-top: 2px;
+margin-right: 3%; /*This is the distance between the right side of the figure and <p>*/
+margin-bottom: 116px; /*The distance between the figure caption and <p> */
 }
 
 .caption {
 color: black;
 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-font-size: 160%;
+font-size: 95%;
 
 }
 
-.photo {
-width: 35%;
-height: 35%;
+/*Link color*/
+.nav-link {
+    color: #696969;
+}
+
+.main{
+    background-color: whitesmoke;
+    overflow: auto; /*Is putting the information <p> in the container*/
+    margin: 12% 20%;
+    padding: 20px;
+    height: auto;
+    max-width: 960px;
+}
+
+.underline{
+    border-color: black;
+    border-bottom: 100px;
+}
+#name {
+    color: black;
+    font-size: 36px;
+    font-family: fantasy;
+    padding: 0px 0px 0px 5px;
 }
