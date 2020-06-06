@@ -1,5 +1,7 @@
 # ResponsivePortfolio
 
+Published site:  https://kenyaallen.github.io/ResponsivePortfolio/
+
 This is my attempt at completing homework assignment two in where I am tasked with utilizing Bootstrap CSS Framework to create a mobile responsive portfolio. My completed assignment does not make proper use of Bootstrap's grid system (containers, rows, and columns).  There is much review that I am in need of to succesfully execute this technique.
 
 
