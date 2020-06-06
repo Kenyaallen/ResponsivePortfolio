@@ -27,18 +27,18 @@
 
 /*For the man with head in wall photo*/
 .figure {
-float: left;
-width: 40%;
-height: 75px;
-margin-top: 2px;
-margin-right: 3%; /*This is the distance between the right side of the figure and <p>*/
-margin-bottom: 116px; /*The distance between the figure caption and <p> */
+    float: left;
+    width: 40%;
+    height: 75px;
+    margin-top: 2px;
+    margin-right: 3%; /*This is the distance between the right side of the figure and <p>*/
+    margin-bottom: 116px; /*The distance between the figure caption and <p> */
 }
 
 .caption {
-color: black;
-font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-font-size: 95%;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 95%;
 
 }
 
@@ -78,3 +78,86 @@ font-size: 95%;
     background-color: #696969;
     color: black;    
 }
+
+/*Portfolio*/
+
+
+.work {
+   width: 274px;
+   overflow: auto;
+   float: left;
+   margin: 20px 0 25px;
+   
+   
+} 
+
+.work img {
+    width: 100%;
+    border: 0 none;
+    opacity: .9; /*transparency of an object*/
+    border-radius:10px;
+    
+  }
+  
+  .work h3 {
+    position: relative;
+    bottom: 10px;
+    padding: 20px;
+    width: 100%;
+    color: #ffffff;
+    text-align: center;
+    line-height: 10px;
+    font-weight: 300;
+    background:rgba(24, 85, 109, 0.692);
+    border-bottom: 0;
+    font-size: 22px;
+    font-family: "comic sans ms", cursive, sans-serif;
+      
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

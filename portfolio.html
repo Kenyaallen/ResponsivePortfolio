@@ -1,9 +1,13 @@
+<!DOCTYPE html>
+
+<!--portfolio html-->
+
 <html lang="en">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfolio Tab</title>
+  <title>Responsive Portfolio</title>
 
   <!--This is where you will find  the link to boostrap and the link to my personal style sheet-->
   <!-- (.. means root path)-->
@@ -15,71 +19,79 @@
 
 <body>
 
-  <header>
-
-    <!--Creating a menu for this website -->
+     <!--Creating a menu for this website -->
     <!--Navigation Buttons from bootstrap-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">KenLen</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item active">
-            <a class="nav-link" href="index.html">About<span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="portfolio.html">Portfolio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contacts.html">Contact</a>
-          </li>
 
-        </ul>
-
-      </div>
-    </nav>
-
-      </header>
-
-  <div id="main-container" class="container">
-    <section class="main-section">
-      <h1>Portfolio</h1>
-
-      <div class="work">
-        
-        <img src="./assets/Mitosis.jfif" class="rounded float-left photo img-thumbnail" alt="Mitosis">
-        <img src="./assets/Online Learning.jfif" class="rounded float-right photo img-thumbnail" alt="online learning">
-        <img src="./assets/Science games.jfif" class="rounded float-left photo img-thumbnail" alt="Science Games">
-        <img src="./assets/Teacher stress.jfif" class="rounded float-right photo img-thumbnail" alt="Teacher Stress">
-        <img src="./assets/teacher.jfif" class="rounded float-left photo img-thumbnail" alt="Homework">
-        <img src="./assets/coding.jfif" class="rounded float-right photo img-thumbnail" alt="coding">
-      
-
-</div>
-
-
-        <!--Found this image on google; it depicts how I feel doing this assignment-->
-        <!--<img src="https://constative.com/wp-content/uploads/2017/07/corporate-head-la.jpg" class="rounded mx-auto d-block" alt="Hitting Your Head Against A Wall">-->
+    <header>
+      <nav class="navbar fixed-top navbar-expand-md navbar-light bg-light">
+        <div class="container">
+          <div class="name">
+            <div class="col-lg-4">
+              <div class="col-sm-12">
+                <a class="navbar-brand" href="index.html"><span id="name">KENLEN</a></span>
+              </div>
+              <div class="col-lg-8">
+                <div class="col-sm-12">
+                </div>
+              </div>
+            </div>
+          </div>
+          <span></span>
+          <div class="collapse navbar-collapse" id="navbar"></div>
+          <ul class="nav justify-content-end">
+            <div class="col-md-12"></div>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">About |<span class="sr-only"></span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="portfolio.html">Portfolio |</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact |</a>
+            </li>
+          </ul>
+          <ul class="nav navbar-nav ml-auto">
+            </li>
+          </ul>
+        </div>
+        </div>
+      </nav>
+    </header>
+  
+<br>
+      <div class="container">
+      <div class="main">
+        <h3>Portfolio</h3>
+        <hr class="underline">
 
 
-        <footer>
-          <div class="container">
-            &copy Copyright;
-        </footer>
-      
+          <section>
+          
+             <div class="relative work">
+               <img src="./assets/Online Learning.jfif" alt="Online Learning">
+               <h3>Learning On-line</h3>
+             </div>
 
-        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-          integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
-        </script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-          integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
-        </script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-          integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
-        </script>
+
+             <div class="relative work">
+               <img src="./assets/Science games.jfif" alt="Science Games">
+               <h3>Future Creator </h3> 
+              </div>
+             
+
+
+             <div class="relative work">
+               <img src="./assets/coding.jfif" alt="Coding">
+               <h3>One Day</h3>
+             </div>
+
+
+             <div class="relative work">
+               <img src="./assets/Mitosis.jfif" alt="Mitosis">
+               <h3>Content</h3>
+             </div>
+
+       </section>
 
 </body>
 
