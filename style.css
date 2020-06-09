@@ -79,6 +79,7 @@
     color: black;    
 }
 
+
 /*Portfolio*/
 
 
@@ -96,12 +97,13 @@
     border: 0 none;
     opacity: .9; /*transparency of an object*/
     border-radius:10px;
+    height: 200px;
     
   }
   
   .work h3 {
     position: relative;
-    bottom: 10px;
+    bottom: 60px;
     padding: 20px;
     width: 100%;
     color: #ffffff;
@@ -126,6 +128,8 @@
     background-color: #696969;
     color: black;    
 }
+
+
 
 
 
